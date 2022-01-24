@@ -1,0 +1,25 @@
+.bg-secondary {
+  background-color: #262626 !important;
+}
+
+.bg-primary {
+  background-color: #6c6c6c !important;
+}
+
+.copyright {
+  background-color: #262626;
+}
+
+@media (min-width: 992px) {
+  header.masthead h2, header.masthead .h2 {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 992px) {
+  header.masthead h1, header.masthead .h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}
+
