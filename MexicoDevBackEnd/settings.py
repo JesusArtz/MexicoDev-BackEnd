@@ -27,7 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -37,7 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    #'django_inlinecss',
+    'Web',
 ]
 
 MIDDLEWARE = [
@@ -128,6 +127,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 EMAIL_HOST = "smtp.googlemail.com"
 EMAIL_PORT = 587
-EMAIL_HOST_USER = "ivanmndozaolvera@gmail.com"
-EMAIL_HOST_PASSWORD = "gatutoski3000"
+EMAIL_HOST_USER = "mail"
+EMAIL_HOST_PASSWORD = "password"
 EMAIL_USE_TLS = True

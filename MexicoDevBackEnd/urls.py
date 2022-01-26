@@ -21,5 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index, name="index"),
     path('registro/', registro, name="registro"),
-    path('verificacion/', verificateSended, name="verificacion")
+    path('verificacion/', verificateSended, name="verificacion"),
+    path(r'confirm/(<activation_key>)/', register_confirm, name='activacion')
 ]
